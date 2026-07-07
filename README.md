@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="docs/logo.png" alt="Rozekar Labs" width="300" />
+  <img src="docs/logo.png" alt="Rozekar Labs" width="600" />
 </p>
 
 # Abhijeet Tripathi's Punjab Pulse
