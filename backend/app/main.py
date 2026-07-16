@@ -1,3 +1,4 @@
+import asyncio
 import logging
 from contextlib import asynccontextmanager
 from datetime import datetime, timedelta, timezone
@@ -37,7 +38,7 @@ async def lifespan(app: FastAPI):
         next_run_time=first_run,
     )
     scheduler.start()
-    await run_ingest()
+    asyncio.create_task(run_ingest())
 
     yield
 
